@@ -1,0 +1,56 @@
+Arguments: 
+  /usr/local/Cellar/node/9.3.0_1/bin/node /usr/local/bin/yarn start
+
+PATH: 
+  /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.3.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "mern",
+    "version": "0.1.0",
+    "private": true,
+    "proxy": "http://localhost:3001/",
+    "dependencies": {
+      "axios": "^0.16.2",
+      "react": "^16.0.0",
+      "react-dom": "^16.0.0",
+      "react-router-dom": "^4.1.2",
+      "react-scripts": "1.0.14"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 127
+  Command: sh
+  Arguments: -c react-scripts start
+  Directory: /Users/vivianwin/Desktop/ClassLecture/UTAUS201801FSF2-FT-Class-Repository-FSF-FT/class-content/20-react/01-Activities/08-Stu_Recipies/Solved/client
+  Output:
+  
+      at ProcessTermError.MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
+      at new ProcessTermError (/usr/local/lib/node_modules/yarn/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:30281:17)
+      at ChildProcess.emit (events.js:159:13)
+      at maybeClose (internal/child_process.js:943:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)
